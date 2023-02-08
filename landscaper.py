@@ -15,10 +15,10 @@ class Game:
             self.my_tools = my_tools
             self.day = day
             self.store_tools = [
-                        {"name": "Rusty Scissors", "profit": 5, "cost": 0},
-                        {"name": "Ol' Timey Push Mower", "profit": , "cost":},
-                        {"name": "Fancy Battery-Powered Lawnmower", "profit": "cost":,}
-                        {"name": "Hire a team of starving students", "profit": "cost":}]
+                        {"name": "Rusty Scissors", "profit": 5, "cost": 5},
+                        {"name": "Ol' Timey Push Mower", "profit": 50, "cost": 25},
+                        {"name": "Fancy Battery-Powered Lawnmower", "profit": 100, "cost": 250,},
+                        {"name": "Hire a team of starving students", "profit": 250, "cost": 500}]
 
       # Game Class Methods
       # morning function, runs at the start of each new day.
