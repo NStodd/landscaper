@@ -14,9 +14,9 @@ class Game:
             self.money = money
             self.my_tools = my_tools
             self.day = day
-            self.store_tools = [ 
-                        {"name": "Rusty Scissors", "profit": "cost":},
-                        {"name": "Ol' Timey Push Mower", "profit": "cost":},
+            self.store_tools = [
+                        {"name": "Rusty Scissors", "profit": 5, "cost": 0},
+                        {"name": "Ol' Timey Push Mower", "profit": , "cost":},
                         {"name": "Fancy Battery-Powered Lawnmower", "profit": "cost":,}
                         {"name": "Hire a team of starving students", "profit": "cost":}]
 
@@ -85,7 +85,7 @@ class Game:
 
 # Instantiate a game object
 game = Game(5, # starting money TODO: TURN IT BACK TO ZERO
-            ["teeth"], # starting tools
+            {"name": "teeth", "profit": 1,  "cost":0}, # starting tool
             1, # starting day
             # store tool inventory
 )
