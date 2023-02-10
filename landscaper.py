@@ -1,8 +1,10 @@
 #################################
 #   Landscaper Game
 #################################
-# There was a different version of the game that I was originally building that attempted to use classes.
-# After watching Alex's poolcleaner video I decided to remake it using his model.
+
+# Please note: there was a different version of the game that I was originally trying to build that attempted to use a game class and preserve a bunch of elements of the game state.
+# Unfortunately I think I made it a little overcomplicated for an initial implementation.
+# So after watching Alex's poolcleaner video I decided to remake it using his model.
 # Check out landscaper_classes.py for the other version I was attempting.
 
 
